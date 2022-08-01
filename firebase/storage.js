@@ -22,7 +22,7 @@ export async function uploadImage(image) {
       body: JSON.stringify({ url: url }),
     };
     const response = await fetch(
-      "https://d8da-41-150-32-96.eu.ngrok.io/imageai",
+      "https://f99d-41-113-245-156.in.ngrok.io/imageai",
       requestOptions
     );
     const data = await response.json();

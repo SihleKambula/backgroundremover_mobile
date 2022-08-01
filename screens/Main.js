@@ -37,11 +37,12 @@ export default function Main({ navigation }) {
       </Pressable>
       <TouchableOpacity
         style={{
-          backgroundColor: "blue",
+          backgroundColor: "#0072E4",
           paddingVertical: 10,
           paddingHorizontal: 15,
           borderRadius: 5,
         }}
+        onPress={processImage}
       >
         <Text style={{ color: "#fff" }}>Remove Background</Text>
       </TouchableOpacity>
